@@ -1,0 +1,6 @@
+spring.profiles: default
+api.security.jwt:
+  tokenExpirationTime: 15 # Number of minutes
+  refreshTokenExpTime: 60 # Minutes
+  tokenIssuer: http://nikki13.com
+  tokenSigningKey: xm8EV6Hy5RMFK4EEACIDAwQus
